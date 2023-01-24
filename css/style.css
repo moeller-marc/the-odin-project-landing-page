@@ -32,6 +32,11 @@ body {
   color: #f9faf8;
 }
 
+.header > h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
 .hero {
   display: flex;
   flex-direction: row;
@@ -39,9 +44,10 @@ body {
   color: #f9faf8;
   justify-content: space-between;
   align-items: center;
+  padding: 0 10% 0 10%;
 }
 
-.text {
+.hero > .text {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
@@ -49,8 +55,12 @@ body {
   padding: 3% 0 3% 0;
 }
 
+.hero > .text > p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
 .hero {
-  padding: 0 10% 0 10%;
 }
 
 .hero > img {
@@ -83,6 +93,12 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 5% 0 0 0;
+}
+
+.random_information > h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
 }
 
 .random_information > .container {
@@ -134,7 +150,7 @@ body {
 }
 
 .call_to_action > .text {
-  margin: 0% 0 0% 5%;
+  margin: 0% 40% 0% 5%;
   color: #fff;
 }
 
