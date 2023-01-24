@@ -119,3 +119,26 @@ body {
   margin: -3% 20% 5% 15%;
   font-weight: bold;
 }
+
+.call_to_action {
+  display: flex;
+  flex-direction: row;
+  background-color: #3882f6;
+  margin: 5% 15% 5% 15%;
+}
+
+.call_to_action > .text {
+  margin: 0% 0 0% 5%;
+  color: #fff;
+}
+
+.call_to_action > button {
+  min-width: 15%;
+  margin: 5% 5% 5% 0;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  background-color: #3882f6;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
