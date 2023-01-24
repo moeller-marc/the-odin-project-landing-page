@@ -100,3 +100,22 @@ body {
   border: 10px solid #3882f6;
   border-radius: 15px;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote > .text {
+  margin: 5% 15% 0 15%;
+}
+
+.quote > .person {
+  display: flex;
+  justify-content: flex-end;
+  margin: -3% 20% 5% 15%;
+  font-weight: bold;
+}
